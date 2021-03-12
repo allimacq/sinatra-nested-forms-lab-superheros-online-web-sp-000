@@ -2,5 +2,5 @@
 
 <h2>Team Motto: <%= @team_motto %></h2><br>
 
-<% @hero
-<h2>Hero Name: </h2>
+<% @heros.each do |hero| %>
+<h2>Hero Name: <%= hero.name %> </h2>
